@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+
+\title{Devoir 1}
+\author{Martin Chaperot\\20205638}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{2}
+\subsection*{1}
+Temps: \(O(2^n)\)\\
+Espace: \(O(n)\)
+
+Cette fonction est une implementation récursive de la fonction d'Ackermann.
+
+\begin{verbatim}
+        (2,2)
+        /    \
+    (1,2)     (2,1)
+    /   \     /   \
+(0,2) (1,1) (1,1) (2,0)
+        / \
+    (0,1) (1,0)
+\end{verbatim}
+
+\subsection*{2}
+Temps: \(O(n^3)\)\\
+Espace: \(O(n^3)\)
+
+Cette fonction est une implémentation de la programmation dynamique
+pour résoudre le problème de la construction de la chaîne cible \verb|target| en
+utilisant les sous-chaînes fournies dans la liste \verb|pieces|.
+
+\subsection*{3}
+Temps: \(O(n^2)\)\\
+Espace: \(O(n^2)\)
+
+Cette fonction est une implémentation de la programmation dynamique pour
+déterminer s'il est possible de sommer des éléments du tableau \verb|options|
+pour atteindre le nombre \verb|target|.
+
+\subsection*{4}
+La complexité temporelle augmenterais.
+
+La complexité pour les deux fonctions est \(O(2^n)\). Car pour chacune des fonctions,
+nous devons faire des calcules pour chaque element avec chaque autre element.
+
+\section*{3.4}
+\subsection*{1}
+L'algorithme déplace une section à la fois de Nam à Pam, puis de Pam à Sam,
+en respectant l'ordre original. Ce processus se répète jusqu'à ce que toutes
+les sections soient déplacées de Nam à Sam.
+
+Complexité temporelle: \(O(n)\)\\
+Complexité spatiale: \(O(n)\)
+
+\subsection*{2}
+Complexité temporelle: \(O(n)\)\\
+Complexité spatiale: \(O(n)\)
+
+\end{document}
