@@ -1,11 +1,13 @@
 package graph;
 
+import java.util.ArrayList;
+
 import graph.doublyLinkedList.DoublyLinkedList;
 import graph.doublyLinkedList.Node;
 import graph.doublyLinkedList.NodeIterator;
 
 
-public class Vertex <E,T> implements Comparable<Vertex<E,T>>{
+public class Vertex <E,T> {
 	
 	
 	private E data;
@@ -97,6 +99,22 @@ public class Vertex <E,T> implements Comparable<Vertex<E,T>>{
 	
 	public int getID(){
 		return id;
+	}
+
+	/** Get the neighbors of this vertex. A neighbor is defined as a vertex that is on an outgoing node.
+	 * @return An array with all the neighbors
+	 */
+	@SuppressWarnings("unchecked")
+	public Vertex<E, T>[] getNeighbors() {
+		ArrayList<Vertex<E, T>> neighbors = new ArrayList<Vertex<E, T>>();
+		NodeIterator<Edge<E, T>> edges = getOutEdges();
+		while (edges.hasNext()) {
+			Vertex<E, T> potential = edges.next().getOpposite(this);
+			if (potential != null) {
+				neighbors.add(potential);
+			}
+		}
+		return (Vertex<E, T>[]) neighbors.toArray();
 	}
 	
 	public String toString(){

@@ -37,6 +37,21 @@ public class Edge <E,T> {
 	}
 
 
+	/** Get the vertex opposite of v on this edge
+	 * @param v The vertex to check
+	 * @return The vertex opposite or null if v is not on the edge.
+	 */
+	public Vertex<E, T> getOpposite(Vertex<E, T> v) {
+	    if (v1.equals(v)) {
+		return v2;
+	    }
+	    if (v2.equals(v)) {
+		return v1;
+	    }
+	    return null;
+	}
+
+
 	public T getLabel() {
 		return label;
 	}
@@ -91,7 +106,7 @@ public class Edge <E,T> {
 		return incidentPositionV2;
 	}
 
-	
+
 	public String toString(){
 		return label == null ? String.format("(%s, %s)", v1.toString(),v2.toString()) : String.format("(%s)", label);
 	}

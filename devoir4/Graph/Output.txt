@@ -1,0 +1,86 @@
+Is the graph connected? false
+Is the graph directed? true
+Does the graph contain cycles? true
+Number of connected components in the graph: 5
+
+Performing Breadth-First Search (BFS):
+<Acadie> <Parc> <De Castelnau> <Jean-Talon> <Fabre> <Jarry> <D'Iberville> <Crémazie> <Saint-Michel> <Sauvé> <Henri-Bourassa> <Cartier> <De La Concorde> <Montmorency> <Angrignon> <Monk> <Jolicoeur> <Verdun> <De L'Église> <LaSalle> <Charlevoix> <Lionel-Groulx> <Atwater> <Georges-Vanier> <Guy-Concordia> <Lucien-L'Allier> <Peel> <Bonaventure> <McGill> <Square-Victoria-OACI> <Place-des-Arts> <Place-d'Armes> <Saint-Laurent> <Champ-de-Mars> <Berri-UQAM> <Beaudry> <Jean-Drapeau> <Sherbrooke> <Papineau> <Longueuil–Université-de-Sherbrooke> <Mont-Royal> <Frontenac> <Laurier> <Préfontaine> <Rosemont> <Joliette> <Beaubien> <Pie-IX> <Viau> <Assomption> <Cadillac> <Langelier> <Radisson> <Honoré-Beaugrand> <Côte-des-Neiges> <Université-de-Montréal> <Édouard-Montpetit> <Outremont> <Côte-Sainte-Catherine> <Snowdon> <Villa-Maria> <Vendôme> <Place-Saint-Henri> <Côte-Vertu> <Du Collège> <De La Savane> <Namur> <Plamondon> 
+
+Performing Depth-First Search (DFS):
+<Acadie> <Parc> <De Castelnau> <Jean-Talon> <Fabre> <D'Iberville> <Saint-Michel> <Jarry> <Crémazie> <Sauvé> <Henri-Bourassa> <Cartier> <De La Concorde> <Montmorency> <Angrignon> <Monk> <Jolicoeur> <Verdun> <De L'Église> <LaSalle> <Charlevoix> <Lionel-Groulx> <Atwater> <Guy-Concordia> <Peel> <McGill> <Place-des-Arts> <Saint-Laurent> <Berri-UQAM> <Beaudry> <Papineau> <Frontenac> <Préfontaine> <Joliette> <Pie-IX> <Viau> <Assomption> <Cadillac> <Langelier> <Radisson> <Honoré-Beaugrand> <Jean-Drapeau> <Longueuil–Université-de-Sherbrooke> <Sherbrooke> <Mont-Royal> <Laurier> <Rosemont> <Beaubien> <Georges-Vanier> <Lucien-L'Allier> <Bonaventure> <Square-Victoria-OACI> <Place-d'Armes> <Champ-de-Mars> <Côte-des-Neiges> <Université-de-Montréal> <Édouard-Montpetit> <Outremont> <Côte-Sainte-Catherine> <Snowdon> <Villa-Maria> <Vendôme> <Place-Saint-Henri> <Côte-Vertu> <Du Collège> <De La Savane> <Namur> <Plamondon> 
+
+Current state of the original graph:
+Vertices:
+<Acadie> <Angrignon> <Assomption> <Atwater> <Beaubien> <Beaudry> <Berri-UQAM> <Bonaventure> <Cadillac> <Cartier> <Champ-de-Mars> <Charlevoix> <Côte-des-Neiges> <Côte-Sainte-Catherine> <Côte-Vertu> <Crémazie> <D'Iberville> <De Castelnau> <De L'Église> <De La Concorde> <De La Savane> <Du Collège> <Édouard-Montpetit> <Fabre> <Frontenac> <Georges-Vanier> <Guy-Concordia> <Henri-Bourassa> <Honoré-Beaugrand> <Jarry> <Jean-Drapeau> <Jean-Talon> <Jolicoeur> <Joliette> <Langelier> <LaSalle> <Laurier> <Lionel-Groulx> <Longueuil–Université-de-Sherbrooke> <Lucien-L'Allier> <McGill> <Monk> <Mont-Royal> <Montmorency> <Namur> <Outremont> <Papineau> <Parc> <Peel> <Pie-IX> <Place-d'Armes> <Place-des-Arts> <Place-Saint-Henri> <Plamondon> <Préfontaine> <Radisson> <Rosemont> <Saint-Laurent> <Saint-Michel> <Sauvé> <Sherbrooke> <Snowdon> <Square-Victoria-OACI> <Université-de-Montréal> <Vendôme> <Verdun> <Viau> <Villa-Maria> 
+
+Edges:
+(<Acadie>, <Parc>)
+(<Angrignon>, <Monk>)
+(<Assomption>, <Cadillac>)
+(<Atwater>, <Guy-Concordia>)
+(<Beaubien>, <Jean-Talon>)
+(<Beaudry>, <Papineau>)
+(<Berri-UQAM>, <Beaudry>)
+(<Berri-UQAM>, <Jean-Drapeau>)
+(<Berri-UQAM>, <Sherbrooke>)
+(<Bonaventure>, <Square-Victoria-OACI>)
+(<Cadillac>, <Langelier>)
+(<Cartier>, <De La Concorde>)
+(<Champ-de-Mars>, <Berri-UQAM>)
+(<Charlevoix>, <Lionel-Groulx>)
+(<Crémazie>, <Sauvé>)
+(<Côte-des-Neiges>, <Université-de-Montréal>)
+(<Côte-Sainte-Catherine>, <Snowdon>)
+(<Côte-Vertu>, <Du Collège>)
+(<D'Iberville>, <Saint-Michel>)
+(<De Castelnau>, <Jean-Talon>)
+(<De L'Église>, <LaSalle>)
+(<De La Concorde>, <Montmorency>)
+(<De La Savane>, <Namur>)
+(<Du Collège>, <De La Savane>)
+(<Fabre>, <D'Iberville>)
+(<Frontenac>, <Préfontaine>)
+(<Georges-Vanier>, <Lucien-L'Allier>)
+(<Guy-Concordia>, <Peel>)
+(<Henri-Bourassa>, <Cartier>)
+(<Jarry>, <Crémazie>)
+(<Jean-Drapeau>, <Longueuil–Université-de-Sherbrooke>)
+(<Jean-Talon>, <Fabre>)
+(<Jean-Talon>, <Jarry>)
+(<Jolicoeur>, <Verdun>)
+(<Joliette>, <Pie-IX>)
+(<Langelier>, <Radisson>)
+(<LaSalle>, <Charlevoix>)
+(<Laurier>, <Rosemont>)
+(<Lionel-Groulx>, <Atwater>)
+(<Lionel-Groulx>, <Georges-Vanier>)
+(<Lucien-L'Allier>, <Bonaventure>)
+(<McGill>, <Place-des-Arts>)
+(<Monk>, <Jolicoeur>)
+(<Mont-Royal>, <Laurier>)
+(<Namur>, <Plamondon>)
+(<Outremont>, <Acadie>)
+(<Papineau>, <Frontenac>)
+(<Parc>, <De Castelnau>)
+(<Peel>, <McGill>)
+(<Pie-IX>, <Viau>)
+(<Place-d'Armes>, <Champ-de-Mars>)
+(<Place-des-Arts>, <Saint-Laurent>)
+(<Place-Saint-Henri>, <Lionel-Groulx>)
+(<Plamondon>, <Côte-Sainte-Catherine>)
+(<Préfontaine>, <Joliette>)
+(<Radisson>, <Honoré-Beaugrand>)
+(<Rosemont>, <Beaubien>)
+(<Saint-Laurent>, <Berri-UQAM>)
+(<Sauvé>, <Henri-Bourassa>)
+(<Sherbrooke>, <Mont-Royal>)
+(<Snowdon>, <Côte-des-Neiges>)
+(<Snowdon>, <Villa-Maria>)
+(<Square-Victoria-OACI>, <Place-d'Armes>)
+(<Université-de-Montréal>, <Édouard-Montpetit>)
+(<Vendôme>, <Place-Saint-Henri>)
+(<Verdun>, <De L'Église>)
+(<Viau>, <Assomption>)
+(<Villa-Maria>, <Vendôme>)
+(<Édouard-Montpetit>, <Outremont>)
+
